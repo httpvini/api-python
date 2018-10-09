@@ -1,0 +1,33 @@
+swagger: "2.0"
+info:
+  description: Rick and Morty - Pessoas
+  version: "1.0.0"
+  title: Rick and Morty - Pessoas - API
+consumes:
+  - "application/json"
+produces:
+  - "application/json"
+
+basePath: "/api"
+
+paths:
+  /pessoa:
+    get:
+      operationId: "pessoa.read"
+      tags:
+        - "pessoa"
+      summary: "A estrutura de dados pessoa suportada pelo server"
+      description: "Lê alista de pessoas"
+      responses:
+        200:
+          description: "Operação de leitura de pessoas"
+          schema:
+            type: "array"
+            items:
+              properties:
+                fname:
+                  type: "string"
+                lname:
+                  type: "string"
+                timestamp:
+                  type: "string"
