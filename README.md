@@ -6,7 +6,7 @@ Api em python, utilizando connexion e swagger. Para fins de estudo.
 
 Para testar o funcionamento, basta clonar este repositório e executar o arquivo "serverstarter.py" com o comando: *python3 serverstarter.py*
 
-### Prerequisitos
+### Pré-requisitos
 
 É necessário ter o Python 3 e a versão mais recente do pip instalada. 
 
