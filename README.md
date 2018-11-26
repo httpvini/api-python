@@ -10,4 +10,9 @@ Para testar o funcionamento, basta clonar este repositório e executar o arquivo
 
 É necessário ter o Python 3 e a versão mais recente do pip instalada. 
 
+### Endpoints
 
+Para configurar seus endpoints, adicione suas configurações no swagger.yml
+
+Para detalhes acessar a interface web do swagger e obter detalhes sobre os endpoints disponíveis na api, acesse:
+http://127.0.0.1:5000/api/ui/
