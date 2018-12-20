@@ -15,4 +15,4 @@ Para testar o funcionamento, basta clonar este repositório e executar o arquivo
 Para configurar seus endpoints, adicione suas configurações no swagger.yml
 
 Para acessar a interface web do swagger e obter detalhes sobre os endpoints disponíveis na api, acesse:
-http://127.0.0.1:5000/api/ui/
+http://localhost:5000/api/ui/
