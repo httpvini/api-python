@@ -1,0 +1,8 @@
+version: '3.1'
+services:
+  api-python:
+    container_name: api-python
+    image: apipython
+    restart: always
+    ports:
+      - "5000:5000"
