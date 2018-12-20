@@ -4,11 +4,11 @@ Api em python, utilizando connexion e swagger. Para fins de estudo.
 
 ## Getting Started
 
-Para testar o funcionamento, basta clonar este repositório e executar o arquivo "serverstarter.py" com o comando: *python3 serverstarter.py*
-
+Para testar o funcionamento, basta clonar este repositório e executar o arquivo o comando: *docker-compose up -d*
+Após isso, basta abrir o navegador e acessar http://localhost:5000/
 ### Pré-requisitos
 
-É necessário ter o Python 3 e a versão mais recente do pip instalada. 
+É necessário ter o docker e o docker-compose instalado.
 
 ### Endpoints
 
