@@ -4,7 +4,7 @@ Api em python, utilizando connexion e swagger. Para fins de estudo.
 
 ## Getting Started
 
-Para testar o funcionamento, basta clonar este repositório e executar o comando: *docker-compose up -d* no diretório da aplicação.
+Para testar o funcionamento, basta clonar este repositório, buildar a imagem docker com o comando *docker build -t <nome_da_imagem> .*, depois execute o comando: *docker-compose up -d*. Todos os comandos devem ser executados no diretório da aplicação. 
 Após isso, basta abrir o navegador e acessar http://localhost:5000/
 ### Pré-requisitos
 
